@@ -1,0 +1,35 @@
+html,
+body {
+  height: auto;
+}
+
+.App {
+  margin: 2rem auto;
+  max-width: 800px;
+  font-family: sans-serif;
+}
+
+.ui.table td {
+  padding: 1rem;
+}
+
+.ui.table td.narrow {
+  padding: 0;
+}
+
+.ui.button {
+  margin: 0 0.5rem;
+}
+
+.content-editable {
+  padding: 1rem;
+}
+
+.content-editable:hover {
+  background: #f7f7f7;
+}
+
+.content-editable:focus {
+  background: #fcf8e1;
+  outline: 0;
+}
